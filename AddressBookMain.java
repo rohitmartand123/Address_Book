@@ -13,7 +13,7 @@ public class AddressBookMain {
 
         AddressBook addressBook = new AddressBook();
 
-        // Calling option method to take choice of add, edit or display
+        // Calling option method to take choice of add, edit, delete or display
         addressBook.option();
 
         }
