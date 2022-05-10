@@ -1,7 +1,13 @@
 package addressbookmanagementsystem;
 
+/*
+ * contact details of person
+ *
+ * @author : Rohit
+ */
+
 public class Contacts {
-	// Variable
+    // Variable
     private String firstName;
     private String lastName;
     private String address;
@@ -91,5 +97,6 @@ public class Contacts {
     @Override
     public String toString() {
         return "Contact{" + "\n FirstName : " + firstName + ", LastName : " + lastName + " \n Address : " + address + ", City : " + city + ", State : " + state + "\n Mobile No : " + mobileNo + ", Pin-Code : " + pinCode + ", \n Email : " + email + '}';
-}
+	
+    }
 }
