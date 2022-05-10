@@ -1,21 +1,20 @@
 package addressbookmanagementsystem;
 
 /*
- *  Ability to add a new Contact to Address Book
-
+ *Ability to edit Contact in Address Book
  * @author : Rohit
  */
 
 public class AddressBookMain {
-	public static void main(String[] args) {
+    public static void main(String[] args) {
+
         System.out.println("------------------Welcome to Address Book Management System !---------------------");
         System.out.println();
 
         AddressBook addressBook = new AddressBook();
 
-        // Calling addContact and displayContact method
-        addressBook.addContact();
-        addressBook.displayContact();
+        // Calling option method to take choice of add, edit or display
+        addressBook.option();
 
         }
 }
