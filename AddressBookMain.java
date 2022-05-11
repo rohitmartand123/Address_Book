@@ -8,7 +8,7 @@ package addressbookmanagementsystem;
 
 public class AddressBookMain {
 	  public static void main(String[] args) {
-	        System.out.println("-----------------Welcome to address book  Program --------------------");
+		  System.out.println("-----------------Welcome to address book  Program --------------------");
 	        System.out.println();
 
 	        // Calling directoryMenu method to perform user choice of operation
